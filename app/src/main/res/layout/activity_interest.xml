@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Interests"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select a few topics"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp" />
+
+        <CheckBox
+            android:id="@+id/cbAlgorithms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Algorithms" />
+
+        <CheckBox
+            android:id="@+id/cbDataStructures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Structures" />
+
+        <CheckBox
+            android:id="@+id/cbWebDev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Web Development" />
+
+        <CheckBox
+            android:id="@+id/cbTesting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Testing" />
+
+        <CheckBox
+            android:id="@+id/cbDatabases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Databases" />
+
+        <Button
+            android:id="@+id/btnNextInterest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>
